@@ -1,33 +1,138 @@
 .App {
+  background-color: #F7DFD4;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: "Verdana", sans-serif;
   text-align: center;
+  padding-bottom: 20px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+  margin: auto;
+  padding-top: 20px;
+  width: 15%;
+  height: auto;
+}
+#intro {
+    font-size: 1.0em;
+}
+ #Title {
+  font-size: 65px;
+  font-weight: 550;
+  color: #32485C;
+}
+ #banner {
+
+}
+  #song-list {
+   margin: auto;
+   width: 4em;
+   padding: 30px;
+ }
+
+.hero-title {
+  color: #874E4C;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ .selling-points {
+   color: #E2B091;
+   text-transform: uppercase;
+   font-weight: 400;
+   font-size: 15px;
+   width: 100%;
+ }
+ .point-description {
+   text-align: center;
+   height: 30px;
+   align-content: center;
+   justify-content: center;
+   font-weight: 700;
+   margin: 0 auto;
+ }
+ header {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+ }
+
+.header {
+  float: left;
+  padding-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+ header a {
+   background-color: #EABCAC;
+   padding: 20px;
+   margin: auto;
+   align-items: center;
+ }
+
+ h1 {
+   color: #fff;
+   text-transform: uppercase;
+   font-size: 47px;
+ }
+
+ nav {
+   margin: auto;
+   width: 100px;
+   height: 22px;
+   text-transform: uppercase;
+   text-align: left;
+   justify-content: space-between;
+ }
+
+ .icon {
+   color: white;
+   margin-left: 10px;
+ }
+
+.album-link{
+  width: 200px;
+  height: auto;
+  display: inline-block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.album-display {
+  padding: 10px;
+
+}
+
+#album-info-library {
+  padding: 10px;
+  background-color: #EABCAC;
+}
+
+#album-title {
+  font-size: 30px;
+  width: 320px;
+  margin: auto;
+  color: #32485C;
+}
+
+.artist {
+  color: #874E4C;
+}
+
+#release-info{
+  font-size: 15px;
+  color: #874E4C;
+}
+
+#song-list {
+  color: #874E4C;
+}
+
+.artist{
+  margin: auto;
+}
+
+.player-bar{
+  background-color: #E2B091;
+  width: 300px;
+  height: auto;
+  margin: auto;
+  color: #874E4C;
 }

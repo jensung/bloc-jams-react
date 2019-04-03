@@ -1,0 +1,63 @@
+.container {
+  background: #AFB1E3;
+  width: 500px;
+  margin: 20px auto;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.player-controls {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+
+.icon {
+  color: white;
+  margin: 0;
+}
+
+.current-total-time {
+  font-size: 10px;
+  font-weight: 700;
+  margin-top: 3px;
+  margin-right: 20px;
+}
+
+#player {
+  display: flex;
+  margin-top: 5%;
+}
+
+button {
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+#forward {
+  color: black;
+}
+
+#backwards {
+  color: black;
+}
+
+.volume-bar {
+  width: 90px;
+}
+
+.seek-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.fa-volume-up {
+  margin-right: 5px;
+  padding-bottom: 0px;
+  font-size: 25px;
+}

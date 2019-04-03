@@ -10,20 +10,24 @@ class App extends Component {
     return (
       <div className="App">
         <header>
-         <nav>
-          <Link to='/'>Landing</Link>
-          <Link to='/library'>Library</Link>
+         <nav className="header">
+          <Link to='/' style={{ textDecoration: 'none' }}>Home</Link>
+          <Link to='/library' style={{ textDecoration: 'none' }}>Library</Link>
          </nav>
-         <h1>BlocJams</h1>
+         <nav className="main"></nav>
         </header>
+        <div id="banner"></div>
         <main>
-          <Route exact path="/" component={Landing} />
-          <Route path="/library" component={Library} />
-          <Route path="/album/:slug" component={Album} />
+        <Route exact path="/" component={Logo} />
+        <Route exact path="/" component={Landing} />
+        <Route path="/library" component={Library} />
+        <Route path="/album/:slug" component={Album} />
         </main>
       </div>
     );
   }
 }
+const Logo = () => <img className="logo" src="/assets/images/bloc_jams_logo.png" alt="Bloc Jams logo" />;
+
 
 export default App;
